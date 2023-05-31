@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,182 +9,165 @@ const Footer = () => {
           {/* <!-- nav - start --> */}
           <div>
             <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
-              Products
-            </div>
-
-            <nav className="flex flex-col gap-4">
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Overview
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Solutions
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Pricing
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Customers
-                </a>
-              </div>
-            </nav>
-          </div>
-          {/* <!-- nav - end --> */}
-
-          {/* <!-- nav - start --> */}
-          <div>
-            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
               Company
             </div>
 
             <nav className="flex flex-col gap-4">
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
                   About
-                </a>
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Investor Relations
-                </a>
+                  Features
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Jobs
-                </a>
+                  Works
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Press
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Blog
-                </a>
+                  Career
+                </Link>
               </div>
             </nav>
           </div>
           {/* <!-- nav - end --> */}
-
           {/* <!-- nav - start --> */}
           <div>
             <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
-              Support
+              Help
             </div>
 
             <nav className="flex flex-col gap-4">
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Contact
-                </a>
+                  Customer Support
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Documentation
-                </a>
+                  Delivery Details
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Chat
-                </a>
+                  Terms & Conditions
+                </Link>
               </div>
-
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  FAQ
-                </a>
-              </div>
-            </nav>
-          </div>
-          {/* <!-- nav - end --> */}
-
-          {/* <!-- nav - start --> */}
-          <div>
-            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
-              Legal
-            </div>
-
-            <nav className="flex flex-col gap-4">
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
-                >
-                  Terms of Service
-                </a>
-              </div>
-
-              <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </div>
+            </nav>
+          </div>
+          {/* <!-- nav - end --> */}
+          <div>
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
+              Resources
+            </div>
 
+            <nav className="flex flex-col gap-4">
               <div>
-                <a
-                  href="#"
-                  className="text-gray-400 transition duration-100 hover:text-indigo-500 active:text-indigo-600"
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
                 >
-                  Cookie settings
-                </a>
+                  Free eBooks
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  Development Tutorial
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  How to - Blog
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  Youtube Playlist
+                </Link>
+              </div>
+            </nav>
+          </div>
+          {/* <!-- nav - end --> */}
+          <div>
+            <div className="mb-4 font-bold uppercase tracking-widest text-gray-100">
+              Links
+            </div>
+
+            <nav className="flex flex-col gap-4">
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  Free eBooks
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  Development Tutorial
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  How to - Blog
+                </Link>
+              </div>
+              <div>
+                <Link
+                  to="#"
+                  className="text-gray-400 transition duration-100 hover:text-[#B82CFF] active:text-indigo-600"
+                >
+                  Youtube Playlist
+                </Link>
               </div>
             </nav>
           </div>

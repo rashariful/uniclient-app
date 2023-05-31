@@ -8,7 +8,8 @@ const About = () => {
           {/* <!-- content - start --> */}
           <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
             <h1 className="capitalize leading-normal text-slate-50 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-[42] md:leading-snug">
-              Create content efficiently <br /> and quickly with great AI <br /> writing tools
+              Create content efficiently <br /> and quickly with great AI <br />{" "}
+              writing tools
             </h1>
 
             <p className="mb-8 leading-relaxed text-[#FAFAFA] md:mb-12 lg:w-4/5 xl:text-lg">
@@ -26,13 +27,52 @@ const About = () => {
           {/* <!-- content - end --> */}
 
           {/* <!-- image - start --> */}
-          <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-            <img
-              src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&q=75&fit=crop&w=1000"
-              loading="lazy"
-              alt="Photo by Fakurian Design"
-              className="h-full w-full object-cover object-center"
-            />
+          <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg h-auto xl:w-5/12">
+            <div className="p-5 ">
+              <h3 className="text-slate-800 font-semibold text-lg">Results</h3>
+              <p className="text-slate-500">Here's what our AI came up with.</p>
+
+              <div className="px-5 ">
+                <div className="bg-slate-200 p-5 mt-5 rounded-md">
+                  <p className="text-slate-800">
+                    Pain: You are an e-commerce business, and you want to sell
+                    your products all over the country, but you are confused
+                    about how to handle sales tax.
+                  </p>
+                  <br />
+                  <p className="text-slate-800">
+                    Agitate: You have no idea how much sales tax to charge your
+                    customers in each state.{" "}
+                  </p>
+                  <br />
+                  <p className="text-slate-800">
+                    Solution: Use TaxSol, our full stack sales tax solution, to
+                    manage your sales tax for you!
+                  </p>
+                </div>
+              </div>
+              <div className="px-5 ">
+                <div className="bg-slate-200 overflow-y-auto h-52 p-5 mt-5 rounded-md">
+                  <p className="text-slate-800">
+                    Pain: e-commerce business owners are struggling to keep up
+                    with the ever changing sales tax laws.
+                  </p>
+                  <br />
+                  <p className="text-slate-800">
+                    Agitate: Sales tax is a complicated, confusing and expensive
+                    nightmare for e-commerce business owners. Solution: Let
+                    TaxHero handle all of your sales tax compliance needs so you
+                    can focus on growing your business.
+                  </p>
+                  <br />
+                  <p className="text-slate-800">
+                    Agitate: You have no idea how much sales tax to charge your
+                    customers in each state. Solution: Use TaxSol, our full
+                    stack sales tax solution, to manage your sales tax for you!
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
           {/* <!-- image - end --> */}
         </section>

@@ -8,7 +8,7 @@ const Faq = () => {
         Mixland helps you <br /> build beautiful website
       </h2>
       <div className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row">
-        <div className="rounded-sm flex flex-col gap-2">
+        <div className="rounded-sm overflow-hidden flex flex-col gap-2">
           <button className="text-left py-4 w-96 overflow-hidden pl-5 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center bg-gray-100 border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
             Start 14 Days Free Trial
           </button>

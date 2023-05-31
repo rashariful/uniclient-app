@@ -65,7 +65,79 @@ const Testimonial = () => {
           <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
             <div className="flex w-full px-3 justify-between">
               <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
+                <img className="w-8 h-8" src={prof2} alt="" />
+                <div>
+                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
+                  Jenny Wilson
+                  </h3>
+                  <p className="text-slate-500">@drems baby</p>
+                </div>
+              </div>
+
+              <div>
+                <AiOutlineTwitter size={24} color="#00acee" />
+              </div>
+            </div>
+            <p className="text-slate-900 leading-normal text-lg">
+              You made it so simple. My new site is so much faster and easier to
+              work with than my old site. I just choose the page, make the
+              change and click save.
+              <br /> <span className="text-blue-600 text-lg">#another</span>
+            </p>
+          </div>
+          {/* cart start */}
+          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
+            <div className="flex w-full px-3 justify-between">
+              <div className="flex gap-3 items-center justify-center">
+                <img className="w-8 h-8" src={prof3} alt="" />
+                <div>
+                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
+                  Annette Black
+                  </h3>
+                  <p className="text-slate-500">@drems baby</p>
+                </div>
+              </div>
+
+              <div>
+                <AiOutlineTwitter size={24} color="#00acee" />
+              </div>
+            </div>
+            <p className="text-slate-900 leading-normal text-lg">
+              You made it so simple. My new site is so much faster and easier to
+              work with than my old site. I just choose the page, make the
+              change and click save.
+              <br /> <span className="text-blue-600 text-lg">#another</span>
+            </p>
+          </div>
+          {/* cart start */}
+          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
+            <div className="flex w-full px-3 justify-between">
+              <div className="flex gap-3 items-center justify-center">
+                <img className="w-8 h-8" src={prof4} alt="" />
+                <div>
+                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
+                  Marvin McKinney
+                  </h3>
+                  <p className="text-slate-500">@drems baby</p>
+                </div>
+              </div>
+
+              <div>
+                <AiOutlineTwitter size={24} color="#00acee" />
+              </div>
+            </div>
+            <p className="text-slate-900 leading-normal text-lg">
+              You made it so simple. My new site is so much faster and easier to
+              work with than my old site. I just choose the page, make the
+              change and click save.
+              <br /> <span className="text-blue-600 text-lg">#another</span>
+            </p>
+          </div>
+          {/* cart start */}
+          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
+            <div className="flex w-full px-3 justify-between">
+              <div className="flex gap-3 items-center justify-center">
+                <img className="w-8 h-8" src={prof5} alt="" />
                 <div>
                   <h3 className="text-slate-800 capitalize font-semibold text-xl">
                     darrell name
@@ -89,10 +161,10 @@ const Testimonial = () => {
           <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
             <div className="flex w-full px-3 justify-between">
               <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
+                <img className="w-8 h-8" src={prof6} alt="" />
                 <div>
                   <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
+                  Guy Hawkins
                   </h3>
                   <p className="text-slate-500">@drems baby</p>
                 </div>
@@ -113,10 +185,10 @@ const Testimonial = () => {
           <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
             <div className="flex w-full px-3 justify-between">
               <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
+                <img className="w-8 h-8" src={prof7} alt="" />
                 <div>
                   <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
+                  Darrell Steward
                   </h3>
                   <p className="text-slate-500">@drems baby</p>
                 </div>
@@ -137,82 +209,10 @@ const Testimonial = () => {
           <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
             <div className="flex w-full px-3 justify-between">
               <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
+                <img className="w-8 h-8" src={prof8} alt="" />
                 <div>
                   <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
-                  </h3>
-                  <p className="text-slate-500">@drems baby</p>
-                </div>
-              </div>
-
-              <div>
-                <AiOutlineTwitter size={24} color="#00acee" />
-              </div>
-            </div>
-            <p className="text-slate-900 leading-normal text-lg">
-              You made it so simple. My new site is so much faster and easier to
-              work with than my old site. I just choose the page, make the
-              change and click save.
-              <br /> <span className="text-blue-600 text-lg">#another</span>
-            </p>
-          </div>
-          {/* cart start */}
-          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
-            <div className="flex w-full px-3 justify-between">
-              <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
-                <div>
-                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
-                  </h3>
-                  <p className="text-slate-500">@drems baby</p>
-                </div>
-              </div>
-
-              <div>
-                <AiOutlineTwitter size={24} color="#00acee" />
-              </div>
-            </div>
-            <p className="text-slate-900 leading-normal text-lg">
-              You made it so simple. My new site is so much faster and easier to
-              work with than my old site. I just choose the page, make the
-              change and click save.
-              <br /> <span className="text-blue-600 text-lg">#another</span>
-            </p>
-          </div>
-          {/* cart start */}
-          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
-            <div className="flex w-full px-3 justify-between">
-              <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
-                <div>
-                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
-                  </h3>
-                  <p className="text-slate-500">@drems baby</p>
-                </div>
-              </div>
-
-              <div>
-                <AiOutlineTwitter size={24} color="#00acee" />
-              </div>
-            </div>
-            <p className="text-slate-900 leading-normal text-lg">
-              You made it so simple. My new site is so much faster and easier to
-              work with than my old site. I just choose the page, make the
-              change and click save.
-              <br /> <span className="text-blue-600 text-lg">#another</span>
-            </p>
-          </div>
-          {/* cart start */}
-          <div className="flex flex-col gap-5 min-w[305px] h-auto bg-[#FFFFFF] p-4 rounded-md">
-            <div className="flex w-full px-3 justify-between">
-              <div className="flex gap-3 items-center justify-center">
-                <img className="w-8 h-8" src={prof1} alt="" />
-                <div>
-                  <h3 className="text-slate-800 capitalize font-semibold text-xl">
-                    darrell name
+                  Leslie Alexander
                   </h3>
                   <p className="text-slate-500">@drems baby</p>
                 </div>
