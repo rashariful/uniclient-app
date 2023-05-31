@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="bg-[#000] pb-6 sm:pb-8 lg:pb-12">
       <div className="mx-auto mb-20 max-w-screen-2xl px-4 md:px-8">
-        <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row-reverse">
+        <section className="flex relative flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row-reverse">
           {/* <!-- content - start --> */}
           <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
             <h1 className="capitalize leading-normal text-slate-50 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-[42] md:leading-snug">
@@ -26,7 +26,7 @@ const About = () => {
           </div>
           {/* <!-- content - end --> */}
 
-          {/* <!-- image - start --> */}
+          {/* <!--left side content - start --> */}
           <div className="overflow-hidden rounded-lg bg-gray-100 shadow-lg h-auto xl:w-5/12">
             <div className="p-5 ">
               <h3 className="text-slate-800 font-semibold text-lg">Results</h3>
@@ -73,8 +73,19 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <div className="bg-white hidden md:block px-3 w-[240px] h-auto pb-3 rounded-md absolute top-[300px] left-[500px] z-30">
+              <div className="flex gap-2 -left-2 mt-4">
+                <div className="bg-red-500 w-2 h-2 rounded-full"></div>
+                <div className="bg-yellow-500 w-2 h-2 rounded-full"></div>
+                <div className="bg-green-600 w-2 h-2 rounded-full"></div>
+              </div>
+              <div className="border-b-[5px] rounded-full border-[#2B59FF] w-16 mt-6"></div>
+              <div className="border-b-[5px] rounded-full border-[#E1E3E8] w-[198px] mt-4"></div>
+              <div className="border-b-[5px] rounded-full border-[#E1E3E8] w-[174px] mt-2"></div>
+              <div className="border-b-[5px] rounded-full border-[#E1E3E8] w-[138px] mt-2"></div>
+            </div>
           </div>
-          {/* <!-- image - end --> */}
+          {/* <!--left side content- end --> */}
         </section>
       </div>
     </div>

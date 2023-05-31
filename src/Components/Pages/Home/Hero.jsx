@@ -3,7 +3,7 @@ import { AiFillPlayCircle } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="bg-[#000] bg-gradient-to-tr pb-6 sm:pb-8 lg:pb-12">
+    <div className="bg-gradient-to-tl from-[#002] via-[#000] to-[#150024] pb-6 sm:pb-8 lg:pb-12">
       <div className="mx-auto max-w-screen-2xl px-4 md:px-8">
         <section className="flex flex-col items-center">
           <div className="flex max-w-xl flex-col items-center pt-8 pb-16 text-center lg:pt-32 lg:pb-48">

@@ -22,7 +22,7 @@ const Header = () => {
     </React.Fragment>
   );
   return (
-    <header className="text-gray-600 bg-black body-font">
+    <header className="text-gray-600 bg-gradient-to-bl from-[#002] via-[#000] to-[#150024] body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img
@@ -38,13 +38,13 @@ const Header = () => {
           </div>
         </Link>
         <nav className="md:mr-auto md:ml-16 flex flex-wrap items-center text-base justify-center">
-          <ul className="list-none gap-10 capitalize font-semibold text-white md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+          <ul className="list-none gap-5 leading-8 capitalize font-semibold text-white md:border-gray-400	flex flex-wrap items-center text-base justify-center">
             {menuItems}
           </ul>
         </nav>
-        <div className="flex gap-3">
-          <button className="inline-flex items-center text-white font-semibold px-8  border focus:outline-none  rounded text-base mt-4 md:mt-0">
-            Sign in
+        <div className="flex leading-normal mt-3 gap-3">
+          <button className="inline-flex px-5 py-4 text-white font-semibold  items-center border focus:outline-none hover:bg-gray-200 hover:text-black rounded md:mt-0">
+          Sign in
           </button>
           <button className="inline-flex px-5 py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center bg-gray-100 border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
             Get Started Free

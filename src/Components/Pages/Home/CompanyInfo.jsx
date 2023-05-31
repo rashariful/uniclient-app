@@ -17,7 +17,7 @@ const CompanyInfo = () => {
               text but is random.
             </p>
 
-            <div className="flex w-52 flex-col gap-2.5 sm:justify-center">
+            <div className="flex  w-52 flex-col gap-2.5 sm:justify-center">
               <button className="inline-block text-center py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center bg-gray-100 border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
                 Start 14 Days Free Trial
               </button>
@@ -25,11 +25,69 @@ const CompanyInfo = () => {
           </div>
           {/* <!-- content - end --> */}
 
-          {/* <!-- image - start --> */}
-          <div className="h-48 overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
-            
+          {/* <!-- content - start --> */}
+          <div className=" overflow-hidden rounded-lg bg-gray-100 shadow-lg lg:h-auto xl:w-5/12">
+            <div className="flex justify-between w-full gap-8 pt-4 px-5">
+              <div>
+                <div className="flex flex-col gap-3">
+                  <p className="text-slate-500 leading-8">Blog Outline</p>
+                  <p className="text-slate-500 leading-8">Blog Intro</p>
+                  <p className="text-slate-500 leading-8"> Blog Conclusion</p>
+                  <p className="text-slate-500 leading-8"> AIDA</p>
+                  <p className="text-slate-500 leading-8"> PAS</p>
+                  <p className="text-slate-500 leading-8"> Content Rewriter</p>
+                </div>
+                <div className="flex flex-col gap-5 mt-5">
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[90px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[70px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[82px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[57px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[75px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[87px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[64px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[77px]"></div>
+                  <div className="border-b-[5px] rounded-full border-[#E4E8EF] w-[57px]"></div>
+                </div>
+              </div>
+              <div className="flex-1">
+                <div>
+                  <p className="text-slate-800 font-semibold text-lg">
+                    Results
+                  </p>
+                  <p className="text-slate-500 mb-5">
+                    Here's what our AI came up with.
+                  </p>
+                </div>
+                <div className="flex flex-col gap-4">
+                  <div className="bg-slate-900 px-3 pt-1 flex flex-col gap-3 rounded-md h-[100px]">
+                    <div className="border-b-[5px] rounded-full border-slate-600 max-w-[50px] my-3"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-600 max-w-[312px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-600 max-w-[288px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-600 max-w-[254px]"></div>
+                  </div>
+                  <div className="bg-slate-200 px-3 pt-1 flex flex-col gap-3 rounded-md h-[100px]">
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[50px] my-3"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[312px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[288px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[254px]"></div>
+                  </div>
+                  <div className="bg-slate-200 px-3 pt-1 flex flex-col gap-3 rounded-md h-[100px]">
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[50px] my-3"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[312px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[288px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[254px]"></div>
+                  </div>
+                  <div className="bg-slate-200 px-3 pt-1 flex flex-col gap-3 rounded-md h-[100px]">
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[50px] my-3"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[312px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[288px]"></div>
+                    <div className="border-b-[5px] rounded-full border-slate-300 max-w-[254px]"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          {/* <!-- image - end --> */}
+          {/* <!-- content - end --> */}
         </section>
       </div>
     </div>
