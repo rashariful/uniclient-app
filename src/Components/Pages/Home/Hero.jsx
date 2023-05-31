@@ -19,10 +19,10 @@ const Hero = () => {
             </p>
 
             <div className="flex w-52 mt-6 flex-col gap-2.5 sm:justify-center">
-              <button className="inline-block text-center py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center bg-gray-100 border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
+              <button className="inline-block text-center py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
                 Start 14 Days Free Trial
               </button>
-              <button className="flex justify-center items-center hover:border-[#1a43d6] gap-3 mt-4 border border-slate-700 py-3 rounded-md">
+              <button className="flex justify-center items-center  hover:border-[#9b22d3] gap-3 mt-4 border border-slate-700 py-3 rounded-md">
                 <AiFillPlayCircle size={24} /> Watch A Demo
               </button>
              

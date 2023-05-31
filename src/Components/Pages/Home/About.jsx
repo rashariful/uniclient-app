@@ -19,7 +19,7 @@ const About = () => {
             </p>
 
             <div className="flex w-52 flex-col gap-2.5 sm:justify-center">
-              <button className="inline-block text-center py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center bg-gray-100 border-0 focus:outline-none hover:bg-gray-200 rounded md:mt-0">
+              <button className="inline-block text-center py-4 text-white font-semibold bg-gradient-to-r from-[#2B59FF] to-[#BB2BFF] items-center hover:from-[#1a43d6] hover:to-[#9b22d3] bg-gray-100 border-0 focus:outline-none rounded md:mt-0">
                 Start 14 Days Free Trial
               </button>
             </div>
