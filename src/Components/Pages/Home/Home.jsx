@@ -10,6 +10,9 @@ import CompanyInfo from "./CompanyInfo";
 import Tools from "./Tools";
 import Testimonial from "./Testimonial";
 import Faq from "./Faq";
+import WhyChooseUs from "./WhyChooseUs";
+import Universities from "./Universities";
+import HowItWork from "./HowItWork";
 
 const Home = () => {
   return (
@@ -18,7 +21,11 @@ const Home = () => {
         {/* hero section */}
         <section> <Hero/> </section>
          {/* LogoCloud section */}
-        <section> <LogoCloud/> </section>
+        <section> <Universities/> </section>
+         {/* LogoCloud section */}
+        <section> <HowItWork/> </section>
+         {/* LogoCloud section */}
+        <section> <WhyChooseUs/> </section>
         {/* Future section */}
         {/* <section> <Future/> </section> */}
         {/* CompanyInfo section */}
@@ -31,8 +38,6 @@ const Home = () => {
         <section> <Faq/> </section>
         {/* Tools section */}
         <section> <Testimonial/> </section>
-        {/* Price section */}
-        <section> <Price/> </section>
         {/* CallToAction section */}
         <section> <CallToAction/> </section>
     </main>
