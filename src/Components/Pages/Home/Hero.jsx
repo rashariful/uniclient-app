@@ -8,7 +8,7 @@ const Hero = () => {
         <section className="flex flex-col items-center">
           <div className="flex max-w-xl flex-col items-center pt-8 pb-16 text-center lg:pt-32 lg:pb-48">
             <h1 className="text-black-800 text-slate-50 leading-normal capitalize  mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">
-              Write better <br /> content for your <br />{" "}
+              Write better <br /> content for your <br />
               <span className="border-gradient border-b-4 border-orange-600 text-transparent bg-clip-text bg-gradient-to-r from-[#eb7202] via-[#f89e38] to-[#f9bd4d]">
                 Facebook Ads
               </span>
