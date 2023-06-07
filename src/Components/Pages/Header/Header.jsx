@@ -5,16 +5,22 @@ const Header = () => {
   const menuItems = (
     <React.Fragment>
       <li>
-        <Link to="/">Demos</Link>
+        <Link to="/">Home</Link>
+      </li>
+      <li>
+        <Link to="/">services</Link>
+      </li>
+      <li>
+        <Link to="/">universities</Link>
+      </li>
+      <li>
+        <Link to="/">gallery</Link>
+      </li>
+      <li>
+        <Link to="/">success story</Link>
       </li>
       <li>
         <Link to="/">about</Link>
-      </li>
-      <li>
-        <Link to="/">blog</Link>
-      </li>
-      <li>
-        <Link to="/">pages</Link>
       </li>
       <li>
         <Link to="/">contact</Link>
@@ -25,16 +31,16 @@ const Header = () => {
     <header className="text-gray-600 bg-gradient-to-bl from-[#002] via-[#000] to-[#150024] body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <Link className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-          <img
+          {/* <img
             className="w-16 h-auto"
             src="https://uniclients.com/_next/static/media/logo.90a55cc6.svg"
             alt="uniclients.com"
-          />
+          /> */}
           <div>
             <p className="ml-3 text-xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#6C38F8] via-[#6C38F8] to-[#BB2BFF]">
-              UNICLIENT
+             OSICL
             </p>
-            <p className="ml-3 text-md text-slate-200">Technologies</p>
+            <p className="ml-3 text-md text-slate-200">Oversis</p>
           </div>
         </Link>
         <nav className="md:mr-auto md:ml-16 flex flex-wrap items-center text-base justify-center">
